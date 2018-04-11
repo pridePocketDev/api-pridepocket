@@ -34,3 +34,15 @@ rails generate scaffold CampaignHost name:string
 https://devcenter.heroku.com/articles/getting-started-with-rails5#database
 https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb#i-introduction
 
+https://secret-ocean-86137.herokuapp.com/ | https://git.heroku.com/secret-ocean-86137.git
+12:34 AM ~/rep
+heroku create
+git push heroku master
+
+TODO fix this:
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server.
+
+heroku run rake db:migrate
+heroku run rake db:seed
+heroku open
