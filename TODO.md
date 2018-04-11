@@ -30,3 +30,20 @@ secrets management:
 - ??
 
 rails generate scaffold CampaignHost name:string 
+
+https://devcenter.heroku.com/articles/getting-started-with-rails5#database
+https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb#i-introduction
+
+dev setup:
+brew install postgres
+pg_ctl -D /usr/local/var/postgres start && brew services start postgresql
+psql postgres
+  CREATE ROLE pridepocket_test WITH LOGIN PASSWORD 'pridepocket_test_pass'
+  ALTER ROLE pridepocket_test CREATEDB;  
+  
+  CREATE ROLE pridepocket_dev WITH LOGIN PASSWORD 'pridepocket_dev_pass';
+  ALTER ROLE pridepocket_dev CREATEDB;  
+
+rake db:create:all
+rake db:migrate:all
+
