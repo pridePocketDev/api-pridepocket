@@ -1,0 +1,2 @@
+class CampaignHost < ApplicationRecord
+end
