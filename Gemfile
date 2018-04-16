@@ -32,6 +32,7 @@ gem 'devise' # user authentication
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'annotate' # annotate models with db columns for readability
 end
 
 group :test do
