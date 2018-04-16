@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/pridePocketDev/api-pridepocket/badges/gpa.svg)](https://codeclimate.com/github/pridePocketDev/api-pridepocket)
 [![Test Coverage](https://codeclimate.com/github/pridePocketDev/api-pridepocket/badges/coverage.svg)](https://codeclimate.com/github/pridePocketDev/api-pridepocket/coverage)
 [![Dependency Status](https://gemnasium.com/pridePocketDev/api-pridepocket.svg)](https://gemnasium.com/pridePocketDev/api-pridepocket)
+[![Hakiri security](https://hakiri.io/github/pridePocketDev/api-pridepocket/master.svg)](https://hakiri.io/github/pridePocketDev/api-pridepocket/master)
 
 ## purpose
 
