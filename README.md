@@ -29,4 +29,12 @@ The plan is to deploy to heroku with cloudflare or similar for ddos protection
 
 none yet
 
+## dev notes:
+
+see all routes:
+
+```bash
+rails routes
+```
+
  
