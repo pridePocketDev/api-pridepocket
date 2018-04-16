@@ -13,6 +13,7 @@ Backend for pridepocket
 ## dev setup:
 
 ```bash
+   # TODO setup script or docker or vm or something  
    brew install postgres
    pg_ctl -D /usr/local/var/postgres start && brew services start postgresql
    psql postgres
