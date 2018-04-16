@@ -1,5 +1,10 @@
 # api-pridepocket
 
+[![Build Status](https://travis-ci.org/pridePocketDev/api-pridepocket.svg?branch=master)](https://travis-ci.org/pridePocketDev/api-pridepocket)
+[![Code Climate](https://codeclimate.com/github/pridePocketDev/api-pridepocket/badges/gpa.svg)](https://codeclimate.com/github/pridePocketDev/api-pridepocket)
+[![Test Coverage](https://codeclimate.com/github/pridePocketDev/api-pridepocket/badges/coverage.svg)](https://codeclimate.com/github/pridePocketDev/api-pridepocket/coverage)
+[![Dependency Status](https://gemnasium.com/pridePocketDev/api-pridepocket.svg)](https://gemnasium.com/pridePocketDev/api-pridepocket)
+
 ## purpose
 
 Backend for pridepocket
@@ -37,4 +42,21 @@ see all routes:
 rails routes
 ```
 
+create new user locally:
+
+```ruby
+User.create!(email: '1@example.com', password: 'password')
+```
+
+or
+
+```bash
+# TODO curl command here
+```
+
+Create campaign host from rails console
+
+```ruby
+
+```
  
