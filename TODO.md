@@ -29,6 +29,14 @@ secrets management:
 - S3 key for image upload heroku config:add S3_KEY=<key_string>
 - ??
 
+auth:
+devise, maybe doorkeeper or cancancan 
+
+monitoring:
+https://elements.heroku.com/addons/appsignal
+pagerduty/VictorOps?
+Hook up the security email address to pagerduty/victorops or something at least until it starts getting abused
+
 rails generate scaffold CampaignHost name:string 
 
 https://devcenter.heroku.com/articles/getting-started-with-rails5#database
