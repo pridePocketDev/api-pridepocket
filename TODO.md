@@ -48,7 +48,7 @@
 - campaign_donations: campaign_id, campaign_donor_id, amount_cents, wepay_transaction_token
 - campaign_wishlist_items: campaign_id, item_url
 - campaign_post: campaign_id, post_text
-- campaign_donor_post: campaign_id, campaign_donor_id, post_text 
+- campaign_donor_post: campaign_id, campaign_donor_id, post_text
 
 ### resources
 
@@ -56,3 +56,35 @@
 - https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb#i-introduction
 - https://secret-ocean-86137.herokuapp.com/ git push heroku master
 - heroku run rake db:migrate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
