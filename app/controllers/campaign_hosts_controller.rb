@@ -46,6 +46,6 @@ class CampaignHostsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def campaign_host_params
-      params.fetch(:campaign_host, {})
+      params.require(:campaign_host).permit(:user_id, :self_description, :profile_image_url, :wepay_account_id)
     end
 end
