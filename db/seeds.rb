@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-unless Rails.production? do
+# unless Rails.env.production?
   pride_pocket_image = 'http://secret.pridepocket.org/wp-content/uploads/2017/05/pride-pocket_logo-white-high-res-300x116.png'
   rainbow_flag_url = 'https://smile.amazon.com/ANLEY-Breeze-Foot-Rainbow-Flag/dp/B01JFWOV5I'
   User.create! email: '2@example.com', password: 'password'
@@ -24,4 +24,4 @@ unless Rails.production? do
   CampaignDonorPost.create! campaign: Campaign.first, donor: Donor.first, post_text: 'post text'
   Tag.create! name: 'family-planning'
   CampaignTag.create! campaign: Campaign.first, tag: Tag.first
-end
+# end

@@ -55,7 +55,7 @@
 - https://devcenter.heroku.com/articles/getting-started-with-rails5#database
 - https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb#i-introduction
 - https://secret-ocean-86137.herokuapp.com/ git push heroku master
-- heroku run rake db:migrate
+- heroku run rake db:migrate db:seed
 
 
 
