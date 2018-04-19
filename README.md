@@ -44,21 +44,10 @@ see all routes:
 rails routes
 ```
 
-create new user locally:
-
-```ruby
-User.create!(email: '1@example.com', password: 'password')
-```
-
-or
+check out seeds.rb for more setup- one of everything for local dev. Run using 
 
 ```bash
-# TODO curl command here
+rake db:seed
 ```
 
-Create campaign host from rails console
-
-```ruby
-
-```
  
