@@ -1,5 +1,7 @@
 language: ruby
 cache: bundler
-before_install: gem install bundler
+before_install:
+  gem install bundler
+  rake db:create db:migrate
 rvm:
   - 2.5.1
