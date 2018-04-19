@@ -16,7 +16,7 @@ unless Rails.production? do
   PrivacyLevel.create! name: 'public'
   PrivacyLevel.create! name: 'link-only'
   PrivacyLevel.create! name: 'private'
-  Campaign.create! campaign_host: CampaignHost.first, goal_amount_cents: 100_000, welcome_message: 'welcome message', thank_you_note: 'thank you note', published: true, start_at: Date.now, end_at: Time.now + 10.days, description: 'description', privacy_level: PrivacyLevel.first
+  Campaign.create! campaign_host: CampaignHost.first, goal_amount_cents: 100_000, welcome_message: 'welcome message', thank_you_note: 'thank you note', published: true, start_at: Time.now, end_at: Time.now + 10.days, description: 'description', privacy_level: PrivacyLevel.first
   Photo.create! campaign: Campaign.first, url: pride_pocket_image
   Donation.create! campaign: Campaign.first, donor: Donor.first, amount_cents: 100, wepay_transaction_token: 'fake token'
   WishlistItem.create! campaign: Campaign.first, item_url: rainbow_flag_url
