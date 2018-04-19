@@ -13,18 +13,18 @@ Backend for pridepocket
 ## dev setup:
 
 ```bash
-   # TODO setup script or docker or vm or something  
+   # TODO setup script or docker or vm or something
    brew install postgres
    pg_ctl -D /usr/local/var/postgres start && brew services start postgresql
    psql postgres
      CREATE ROLE pridepocket_test WITH LOGIN PASSWORD 'pridepocket_test_pass'
-     ALTER ROLE pridepocket_test CREATEDB;  
-     
+     ALTER ROLE pridepocket_test CREATEDB;
+
      CREATE ROLE pridepocket_dev WITH LOGIN PASSWORD 'pridepocket_dev_pass';
-     ALTER ROLE pridepocket_dev CREATEDB;  
-   
-   rake db:create:all
-   rake db:migrate:all
+     ALTER ROLE pridepocket_dev CREATEDB;
+
+   rake db:create
+   rake db:migrate
    rails server # launch server
 ```
 
@@ -44,10 +44,10 @@ see all routes:
 rails routes
 ```
 
-check out seeds.rb for more setup- one of everything for local dev. Run using 
+check out seeds.rb for more setup- one of everything for local dev. Run using
 
 ```bash
 rake db:seed
 ```
 
- 
+
