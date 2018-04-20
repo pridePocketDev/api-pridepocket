@@ -50,4 +50,9 @@ check out seeds.rb for more setup- one of everything for local dev. Run using
 rake db:seed
 ```
 
+run server
+```bash
+rails server
+open http://localhost:3000/ # default endpoint is all campaigns
+```
 
